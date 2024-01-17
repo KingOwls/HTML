@@ -1,6 +1,7 @@
 *{
     color: brown;
     font-size: 32px;
+    box-sizing: border-box;
 }
 h2{
     color: chartreuse;
@@ -26,4 +27,27 @@ div{
 }
 small{
     font-size: 5px;
+}
+table{
+    width: 100%;
+    border: 3px dotted black;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    padding: 0px 0px 0px 5px;
+}
+table thead{
+    background-color: #d7c326;
+}
+table, th{
+    border: 1px solid black;
+}
+table tr:nth-child(odd){
+    background: #fff5e0;
+}
+table tr:nth-child(even){
+    background: #d8d8d7;
+}
+table tr:hover{
+    background-color: green;
 }
